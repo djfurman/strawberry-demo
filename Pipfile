@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+strawberry-graphql = "*"
+flask = "*"
+uvicorn = "*"
+pydantic = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+gql = "*"
+aiohttp = "*"
+
+[requires]
+python_version = "3.10"
